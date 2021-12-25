@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "GeoQueries",
+    platforms: [.iOS(.v11)],
     products: [
         .library(
             name: "GeoQueries",
